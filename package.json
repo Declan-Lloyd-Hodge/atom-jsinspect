@@ -1,0 +1,19 @@
+{
+  "name": "jsinspect",
+  "main": "./lib/jsinspect",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "jsinspect:toggle"
+  },
+  "repository": "https://github.com/declan-lloyd-hodge/atom-jsinspect",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "jsinspect":"0.8.0"
+  }
+}

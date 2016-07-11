@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle jsinspect",
+        "command": "jsinspect:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "jsinspect",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "jsinspect:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
