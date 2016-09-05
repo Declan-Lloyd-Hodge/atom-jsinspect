@@ -4,6 +4,10 @@
       {
         "label": "Toggle jsinspect",
         "command": "jsinspect:toggle"
+      },
+      {
+        "label": "Close jsinspect",
+        "command": "jsinspect:close"
       }
     ]
   },
@@ -17,6 +21,10 @@
             {
               "label": "Toggle",
               "command": "jsinspect:toggle"
+            },
+            {
+              "label": "Close",
+              "command": "jsinspect:close"
             }
           ]
         }

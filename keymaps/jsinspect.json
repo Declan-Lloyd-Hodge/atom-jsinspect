@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "jsinspect:toggle"
+    "ctrl-j": "jsinspect:toggle",
+    "ctrl-esc" : "jsinspect:close"
   }
 }

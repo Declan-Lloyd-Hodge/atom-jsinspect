@@ -5,4 +5,39 @@
 @import "ui-variables";
 
 .jsinspect {
+  max-height:300px;
+  overflow:auto;
+  background: darken(@app-background-color, 4%);
+  border: 1px solid @base-border-color;
+}
+
+.jsinspect ol>li>div{
+  padding:10px 0;
+}
+
+.jsinspect pre {
+  max-height:250px;
+}
+
+.jsinspect .line{
+  white-space: pre !important;
+}
+
+.jsinspect .bottom-separator{
+  //TODO: Use indentation/wrap guide colour
+  border-bottom: 1px solid @tab-bar-background-color;
+}
+
+.jsinspect ol{
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.jsinspect li{
+  position:relative;
+}
+
+.jsinspect .selected::before{
+  top:10px;
 }
